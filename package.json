@@ -1,0 +1,25 @@
+{
+  "name": "csgotm-seller",
+  "version": "1.0.0",
+  "author": "Redzumi",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "bluebird": "^3.4.7",
+    "limitme": "^0.0.2",
+    "request-promise": "^4.1.1",
+    "steam-totp": "^1.4.0",
+    "steam-tradeoffers": "^3.1.0",
+    "steam-user": "^3.17.0",
+    "steam-web-api-key": "^0.0.3",
+    "steamcommunity": "^3.30.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
